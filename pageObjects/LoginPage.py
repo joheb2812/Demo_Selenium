@@ -30,4 +30,4 @@ class LoginPage:
 
     def clickLogout(self):
         self.driver.find_element(By.XPATH, self.link_logout_Xpath).click()
-        time.sleep(2)
+        time.sleep(55)
